@@ -21,3 +21,16 @@ Poszczególne zadania rozwiązuj w odpowiednich plikach.
 ### Poszczególne zadania rozwiązuj w odpowiednich plikach.
 
 **Repozytorium z ćwiczeniami zostanie usunięte 2 tygodnie po zakończeniu kursu. Spowoduje to też usunięcie wszystkich forków, które są zrobione z tego repozytorium.**
+
+
+## Warsztat BestShop
+
+> ### Przygotowanie
+>
+> Zmodyfikuj plik `vite.config.js` tak, aby zmienna `exercisePath` wskazywała na:
+>
+> - `09_Dzien_5_Gotowy_Warsztat`
+>
+> **Pamiętaj aby włączyć serwer deweloperski (`npm run dev`).**
+
+Jest to gotowa - wzorcowa wersja warsztatu BestShop.
