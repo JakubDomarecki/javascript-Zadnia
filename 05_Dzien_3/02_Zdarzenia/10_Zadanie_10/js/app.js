@@ -1,3 +1,5 @@
+
+
 const a = document.getElementById('a');
 const b = document.getElementById('b');
 
@@ -13,6 +15,7 @@ a.addEventListener('click', function (event) {
 b.addEventListener('click', function (event) {
   // Tutaj this wskazuje na element DOM o id b
   console.log('b: ', this);
+  b.style.backgroundColor = 'orange';
 
   function innerFuncOne() {
     // Tutaj this wskazuje na element Window, bo funkcja została

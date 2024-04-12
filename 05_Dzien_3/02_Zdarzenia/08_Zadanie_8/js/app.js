@@ -3,6 +3,7 @@ document.querySelector('#element1').addEventListener('click', function (e) {
 });
 
 document.querySelector('#element2').addEventListener('click', function (e) {
+  e.stopPropagation();
   console.log('Event in #element2 fired!');
 });
 
@@ -15,9 +16,14 @@ document.querySelector('#element4').addEventListener('click', function (e) {
 });
 
 document.querySelector('#element5').addEventListener('click', function (e) {
+  e.stopImmediatePropagation();
   console.log('Event in #element5 fired!');
 });
 
 document.querySelector('#element5').addEventListener('click', function (e) {
   console.log('Second event in #element5 fired!');
 });
+
+
+// event.stopPropagation() – anuluj wszystkie zdarzenia tego samego typu z elementów nadrzędnych,
+// event.stopImmediatePropagation() – anuluj wszystkie zdarzenia tego samego typu przypięte do tego elementu oraz wszystkich elementów nadrzędnych.
