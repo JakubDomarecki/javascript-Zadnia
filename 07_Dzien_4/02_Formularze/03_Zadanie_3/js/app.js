@@ -10,7 +10,7 @@ macOs.classList.add("d-none");
 ubuntu.classList.add("d-none");
 
 button.addEventListener('click', function (event) {
-    event.preventDefault();
+
     // const selectedOption = select.value;
 
     if (select.value === 'MacOS') {

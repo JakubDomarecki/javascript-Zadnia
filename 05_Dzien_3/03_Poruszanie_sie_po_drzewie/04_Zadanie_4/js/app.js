@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const listContainers = document.querySelectorAll(".listContainer");
-    // biome-ignore lint/complexity/noForEach: <explanation>
+
     listContainers.forEach((container) => {
         container.addEventListener("mouseover", function (e) {
             const lis = this.querySelectorAll("li");

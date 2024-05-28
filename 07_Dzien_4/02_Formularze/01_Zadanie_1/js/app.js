@@ -3,7 +3,6 @@ const errMsg = document.querySelector("#error-message");
 
 const form = document.querySelector("form");
 
-// biome-ignore lint/complexity/useArrowFunction: <explanation>
 form.addEventListener("submit", function (e) {
     e.preventDefault();
 

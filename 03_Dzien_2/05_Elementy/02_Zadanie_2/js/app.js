@@ -14,6 +14,11 @@ for (let i = 0; i < children.length; i++){
     console.log(children[i].className, children[i].tagName);
 }
 
+// 2 rozwazanie do children i tak samo mozna inne
+// children.forEach(function (child) {
+//     console.log(child.className, child.tagName);
+// });
+
 for (let i = 0; i < someBlocks.length; i++){
     console.log(someBlocks[i].className, someBlocks[i].tagName);
 }

@@ -7,6 +7,8 @@ function getTags (childElements) {
         array.push(childElements[i].tagName);
     }
 
+    // childElements.forEach((node) => array.push(node.tagName));  2 rozwiazanie
+
     return array;
 }
 

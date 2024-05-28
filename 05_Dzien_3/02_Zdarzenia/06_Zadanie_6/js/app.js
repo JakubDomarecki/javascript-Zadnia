@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 // document.addEventListener("DOMContentLoaded", (e) => {
 //     const cont = document.querySelector(".container");
 //
-//     // biome-ignore lint/complexity/useArrowFunction: <explanation>
+//
 //     cont.addEventListener("click", function (event) {
 //         if (event.target.className.toLowerCase() === "box") {
 //             const randomColor =

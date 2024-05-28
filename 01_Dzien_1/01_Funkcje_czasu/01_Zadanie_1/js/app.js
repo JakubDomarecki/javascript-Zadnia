@@ -1,6 +1,6 @@
-setInterval(function () {
+setInterval(() => {
     console.log('wygenerowano z setinerval');
-}, 10 * 1000);
+}, 2 * 1000);
 
 setTimeout(function () {
     console.log('wygenrrowano z settimout');
